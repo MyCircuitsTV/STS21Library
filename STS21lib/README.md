@@ -16,9 +16,9 @@ Then create an instance of the STS21 class:
 
 STS21 sensor;
 
-You can then use the readTemperature() method to read the temperature from the sensor:
+You can then use the readTemperatureC() method to read the temperature in Celsius from the sensor:
 
-float temperature = sensor.readTemperature();
+float temperature = sensor.readTemperatureC();
 
 For more information on using the STS21 library, see the example sketch included with the library.
 
